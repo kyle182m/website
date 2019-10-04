@@ -87,7 +87,7 @@ aside form button{
 /* articles */
 article{
     background-color: #fff;
-    /max-width: 330px;
+    max-width: 330px;
     /display: block;
     margin: 0 auto;
     padding-bottom: 40px;
