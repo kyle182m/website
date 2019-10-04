@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    padding: 0;
+    padding: 4em 0 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', sans-serif;
     color: #003082;
@@ -11,6 +11,8 @@ body{
 body>header{
     position: fixed;
     width: 100%;
+    top:0;
+    z-index:1000
 }
 
 header nav{
