@@ -101,27 +101,31 @@ article{
 
 article header{
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 article header img{
     width: 100%;
+    grid-column: 1 / 3;
 }
 
 article header h3{
     color: #003082;
     margin-left: 10px;
     margin-top: 10px;
+    grid-column: 1 / 2;
 }
 
 article header button{
     font-size: 16px;
     border: none;
     background: none;
-    position: absolute;
-    margin-left: 226px;
-    margin-top: -40px;
     color: #003082;
     cursor: pointer;
+    grid-column: 2 / 3;
+    text-align: right;
+    margin-right: 4px;
 }
 
 article header button:before{
