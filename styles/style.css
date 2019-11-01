@@ -109,6 +109,10 @@ aside form button{
     border: none;
 }
 
+aside form button:hover {
+    background: #005299;
+}
+
 /* articles */
 article{
     background-color: #fff;
@@ -229,6 +233,10 @@ main {
     background: #0063d3;
     color: white;
     border: none;
+}
+
+#inloggen form button:hover {
+    background: #005299;
 }
 
 #inloggen form input {
