@@ -2,8 +2,25 @@
 /*eslint-env browser*/
 /*eslint 'no-console': 0*/
 
-function verander() {
-    document.getElementById("hartje").classList.add("filled");
+var toevoegen = document.querySelector("header button");
+var toggle = false; //favoAan bevat antwoord op de vraag "is het verhaal geliked?"
+
+function veranderHartje(){
+    console.log("Hallo test");
+    if(toggle == true){
+
+        document.querySelector("header button").classList.add("filled");
+        document.querySelector("span").style.display = "block";
+            toggle = false;
+
+       } else { //dan is het lampje uit
+
+        document.querySelector("header button").classList.remove("filled");
+        document.querySelector("span").style.display = "none";
+           toggle = true;
+
+       }
 }
 
-document.getElementById("hartje").addEventListener('click', verander);
+toevoegen.addEventListener('click',veranderHartje);
+
